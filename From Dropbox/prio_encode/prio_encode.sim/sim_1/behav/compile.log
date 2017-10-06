@@ -1,9 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/onedrive/WSU/EE214/prio_encode/prio_encode.srcs/sources_1/new/prio_encode_logic.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module prio_encode_logic
-WARNING: [VRFC 10-1315] redeclaration of ansi port Y is not allowed [D:/onedrive/WSU/EE214/prio_encode/prio_encode.srcs/sources_1/new/prio_encode_logic.v:10]
-WARNING: [VRFC 10-1315] redeclaration of ansi port GS is not allowed [D:/onedrive/WSU/EE214/prio_encode/prio_encode.srcs/sources_1/new/prio_encode_logic.v:11]
-WARNING: [VRFC 10-1315] redeclaration of ansi port Eout is not allowed [D:/onedrive/WSU/EE214/prio_encode/prio_encode.srcs/sources_1/new/prio_encode_logic.v:12]
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/onedrive/WSU/EE214/prio_encode/prio_encode.srcs/sim_1/new/testbench.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module testbench
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/onedrive/WSU/EE214/prio_encode/prio_encode.sim/sim_1/behav/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

@@ -1,7 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/onedrive/WSU/EE214/mux_intro/mux_intro.srcs/sources_1/new/mux_intro.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module mux_intro
-WARNING: [VRFC 10-1315] redeclaration of ansi port Y is not allowed [D:/onedrive/WSU/EE214/mux_intro/mux_intro.srcs/sources_1/new/mux_intro.v:51]
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/onedrive/WSU/EE214/mux_intro/mux_intro.srcs/sim_1/new/testbench.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module testbench
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/onedrive/WSU/EE214/mux_intro/mux_intro.sim/sim_1/behav/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

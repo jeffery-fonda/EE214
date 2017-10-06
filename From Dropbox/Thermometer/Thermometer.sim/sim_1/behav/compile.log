@@ -1,7 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/onedrive/WSU/EE214/Thermometer/Thermometer.srcs/sources_1/new/TempLogic.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module TempLogic
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/onedrive/WSU/EE214/Thermometer/Thermometer.srcs/sim_1/new/testbench.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module testbench
-WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [D:/onedrive/WSU/EE214/Thermometer/Thermometer.srcs/sim_1/new/testbench.v:45]
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/onedrive/WSU/EE214/Thermometer/Thermometer.sim/sim_1/behav/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

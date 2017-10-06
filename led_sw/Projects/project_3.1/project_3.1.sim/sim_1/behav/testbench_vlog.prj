@@ -1,9 +1,0 @@
-# compile verilog/system verilog design source files
-verilog xil_defaultlib  "../../../project_3.1.srcs/sources_1/new/equations.v"
-verilog xil_defaultlib  "../../../project_3.1.srcs/sim_1/new/majority_of_five_test_fixture..v"
-
-# compile glbl module
-verilog xil_defaultlib "glbl.v"
-
-# Do not sort compile order
-nosort

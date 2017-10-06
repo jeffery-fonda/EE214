@@ -1,6 +1,0 @@
-# compile verilog/system verilog design source files
-verilog xil_defaultlib  "../../../latch.srcs/sources_1/new/main.v"
-verilog xil_defaultlib  "../../../latch.srcs/sim_1/new/sub.v"
-
-# compile glbl module
-verilog xil_defaultlib "glbl.v"
