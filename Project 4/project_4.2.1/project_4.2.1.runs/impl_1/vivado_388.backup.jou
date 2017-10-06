@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Oct 21 13:30:36 2016
+# Process ID: 396
+# Log file: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 4/project_4.2.1/project_4.2.1.runs/impl_1/demux.vdi
+# Journal file: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 4/project_4.2.1/project_4.2.1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source demux.tcl -notrace

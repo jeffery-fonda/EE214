@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Nov 14 19:38:26 2016
+# Process ID: 488
+# Log file: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 5/project_5_challenge/vivado.log
+# Journal file: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 5/project_5_challenge\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 5/project_5_challenge/projectShifter.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 5/project_5_challenge'
+INFO: [Project 1-313] Project file moved from 'C:/Users/hoob/Desktop/EE214/projectShifter' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 671.492 ; gain = 136.410
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+[Mon Nov 14 19:39:31 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 5/project_5_challenge/projectShifter.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 5/project_5_challenge/.Xil/Vivado-488-WIN-TVTUV8P1OGM/dcp/top.xdc]
+Finished Parsing XDC File [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 5/project_5_challenge/.Xil/Vivado-488-WIN-TVTUV8P1OGM/dcp/top.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 890.168 ; gain = 0.938
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 890.168 ; gain = 0.938
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 979.867 ; gain = 287.652
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 14 19:41:06 2016...

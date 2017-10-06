@@ -1,0 +1,398 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Oct 08 17:38:40 2015
+# Process ID: 6928
+# Log file: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/vivado.log
+# Journal file: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 701.438 ; gain = 154.469
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new
+can't create directory "C:/Users/Jeffery": permission denied
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new
+can't create directory "C:/Users/Jeffery": permission denied
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new
+can't create directory "C:/Users/Jeffery": permission denied
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new
+can't create directory "C:/Users/Jeffery": permission denied
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new
+can't create directory "C:/Users/Jeffery": permission denied
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new
+can't create directory "C:/Users/Jeffery": permission denied
+file mkdir {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new}
+close [ open {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v} w ]
+add_files -fileset sim_1 {{C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'encoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj encoder_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module source
+WARNING: [VRFC 10-1315] redeclaration of ansi port Y is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:31]
+WARNING: [VRFC 10-1315] redeclaration of ansi port GS is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:32]
+WARNING: [VRFC 10-1315] redeclaration of ansi port Eout is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:33]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encoder
+ERROR: [VRFC 10-1412] syntax error near for [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v:46]
+ERROR: [VRFC 10-1040] module encoder ignored due to previous errors [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'encoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj encoder_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module source
+WARNING: [VRFC 10-1315] redeclaration of ansi port Y is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:31]
+WARNING: [VRFC 10-1315] redeclaration of ansi port GS is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:32]
+WARNING: [VRFC 10-1315] redeclaration of ansi port Eout is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:33]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encoder
+ERROR: [VRFC 10-1412] syntax error near for [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v:46]
+ERROR: [VRFC 10-1040] module encoder ignored due to previous errors [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'encoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj encoder_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module source
+WARNING: [VRFC 10-1315] redeclaration of ansi port Y is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:31]
+WARNING: [VRFC 10-1315] redeclaration of ansi port GS is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:32]
+WARNING: [VRFC 10-1315] redeclaration of ansi port Eout is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:33]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encoder
+ERROR: [VRFC 10-1412] syntax error near for [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v:46]
+ERROR: [VRFC 10-1040] module encoder ignored due to previous errors [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'encoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj encoder_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module source
+WARNING: [VRFC 10-1315] redeclaration of ansi port Y is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:31]
+WARNING: [VRFC 10-1315] redeclaration of ansi port GS is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:32]
+WARNING: [VRFC 10-1315] redeclaration of ansi port Eout is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:33]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encoder
+ERROR: [VRFC 10-1412] syntax error near for [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v:46]
+ERROR: [VRFC 10-1040] module encoder ignored due to previous errors [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v" into library work [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:1]
+[Thu Oct 08 17:54:37 2015] Launched synth_1...
+Run output will be captured here: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.runs/synth_1/runme.log
+launch_runs impl_1
+[Thu Oct 08 17:55:29 2015] Launched impl_1...
+Run output will be captured here: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Thu Oct 08 17:57:33 2015] Launched impl_1...
+Run output will be captured here: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+open_run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 865.207 ; gain = 126.711
+INFO: [Common 17-344] 'open_run' was cancelled
+open_hw
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 865.207 ; gain = 0.000
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183714941A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183714941A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183714941A
+set_property PROGRAM.FILE {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.runs/impl_1/source.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.runs/impl_1/source.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+close_hw
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'encoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj encoder_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module source
+WARNING: [VRFC 10-1315] redeclaration of ansi port Y is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:31]
+WARNING: [VRFC 10-1315] redeclaration of ansi port GS is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:32]
+WARNING: [VRFC 10-1315] redeclaration of ansi port Eout is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:33]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 02a84c6a6acb416abcb15a257611be61 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot encoder_behav xil_defaultlib.encoder xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.source
+Compiling module xil_defaultlib.encoder
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot encoder_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Jeffery -notrace
+couldn't read file "C:/Users/Jeffery": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Thu Oct 08 18:11:14 2015...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "encoder_behav -key {Behavioral:sim_1:Functional:encoder} -tclbatch {encoder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source encoder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 100 ns : File "C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v" Line 49
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'encoder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 943.684 ; gain = 2.121
+open_hw
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 976.023 ; gain = 0.000
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183714941A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183714941A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183714941A
+set_property PROGRAM.FILE {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.runs/impl_1/source.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+[Thu Oct 08 18:12:31 2015] Launched impl_1...
+Run output will be captured here: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.runs/impl_1/runme.log
+close_hw
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/.Xil/Vivado-6928-WIN-TVTUV8P1OGM/dcp/source.xdc]
+Finished Parsing XDC File [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/.Xil/Vivado-6928-WIN-TVTUV8P1OGM/dcp/source.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 1019.570 ; gain = 1.676
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 1019.570 ; gain = 1.676
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 1092.430 ; gain = 116.406
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+open_hw
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1120.598 ; gain = 7.867
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183714941A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183714941A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183714941A
+set_property PROGRAM.FILE {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.runs/impl_1/source.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.runs/impl_1/source.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1450.684 ; gain = 310.016
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+[Thu Oct 08 18:14:22 2015] Launched impl_1...
+Run output will be captured here: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.runs/impl_1/source.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'encoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj encoder_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module source
+WARNING: [VRFC 10-1315] redeclaration of ansi port Y is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:31]
+WARNING: [VRFC 10-1315] redeclaration of ansi port GS is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:32]
+WARNING: [VRFC 10-1315] redeclaration of ansi port Eout is not allowed [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sources_1/new/source.v:33]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 02a84c6a6acb416abcb15a257611be61 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot encoder_behav xil_defaultlib.encoder xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.source
+Compiling module xil_defaultlib.encoder
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot encoder_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Jeffery -notrace
+couldn't read file "C:/Users/Jeffery": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Thu Oct 08 18:16:06 2015...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "encoder_behav -key {Behavioral:sim_1:Functional:encoder} -tclbatch {encoder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source encoder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 100 ns : File "C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v" Line 49
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'encoder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1470.434 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 08 18:18:57 2015...

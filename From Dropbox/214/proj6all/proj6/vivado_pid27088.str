@@ -1,0 +1,45 @@
+/*
+
+Vivado v2015.4 (64-bit)
+SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+Process ID: 27088
+
+Current time: 	3/29/16 8:45:35 PM PDT
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	D:/vivadoStuff/Vivado/2015.4/tps/win64/jre
+
+User name: 	Garrett
+User home directory: C:/Users/Garrett
+User working directory: E:/214/proj6all/proj6
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: C:/Users/Garrett/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/Garrett/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	162 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 364 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// aH:y (cq:JFrame): Older Project Version: addNotify
+// [GUI Memory]: 43 MB (+42619kb) [00:00:08]
+// [Engine Memory]: 349 MB (+214301kb) [00:00:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 365 MB. GUI used memory: 24 MB. Current time: 3/29/16 8:45:37 PM PDT

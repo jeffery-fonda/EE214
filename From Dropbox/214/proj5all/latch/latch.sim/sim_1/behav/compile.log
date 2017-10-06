@@ -1,0 +1,7 @@
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Clay/Desktop/latch/latch.srcs/sources_1/new/main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Clay/Desktop/latch/latch.srcs/sim_1/new/sub.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sub
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Clay/Desktop/latch/latch.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Mar 02 16:47:01 2016
+# Process ID: 3824
+# Current directory: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9392 C:\Users\aswan_000\Desktop\ee214\project 4\challenge #2\challenge #2.xpr
+# Log file: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/vivado.log
+# Journal file: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/challenge #2.xpr}
+set_property STEPS.WRITE_BITSTREAM.TCL.PRE {C:\Users\aswan_000\Desktop\ee214\project 4\a.tcl} [get_runs impl_1]
+set_property STEPS.WRITE_BITSTREAM.TCL.PRE {C:\Users\aswan_000\Desktop\ee214\project 4\a.tcl} [get_runs impl_1]

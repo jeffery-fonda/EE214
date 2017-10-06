@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat Sep 12 11:46:03 2015
+# Process ID: 8156
+# Log file: C:/Users/hoob/Desktop/project_1.2/project_1.2.runs/impl_1/led_sw.vdi
+# Journal file: C:/Users/hoob/Desktop/project_1.2/project_1.2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source led_sw.tcl -notrace

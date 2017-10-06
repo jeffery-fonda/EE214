@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Tue Apr 05 13:45:44 2016
+# Process ID: 1888
+# Current directory: D:/onedrive/WSU/EE214/214/proj6all/proj6alu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8640 D:\onedrive\WSU\EE214\214\proj6all\proj6alu\proj6alu.xpr
+# Log file: D:/onedrive/WSU/EE214/214/proj6all/proj6alu/vivado.log
+# Journal file: D:/onedrive/WSU/EE214/214/proj6all/proj6alu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only D:/onedrive/WSU/EE214/214/proj6all/proj6alu/proj6alu.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Clay/Desktop/proj6all/proj6alu' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-229] Project 'proj6alu.xpr' is read-only and therefore could not be upgraded for this version of Vivado.  Use 'File | Save Project As...' if you wish to save an upgraded copy.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivadoStuff/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 766.699 ; gain = 66.043
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: top
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:51 ; elapsed = 00:02:34 . Memory (MB): peak = 851.734 ; gain = 680.504
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [D:/onedrive/WSU/EE214/214/proj6all/proj6alu/proj6alu.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-638] synthesizing module 'adder' [D:/onedrive/WSU/EE214/214/proj6all/proj6alu/proj6alu.srcs/sources_1/new/adder.v:1]
+INFO: [Synth 8-256] done synthesizing module 'adder' (1#1) [D:/onedrive/WSU/EE214/214/proj6all/proj6alu/proj6alu.srcs/sources_1/new/adder.v:1]
+INFO: [Synth 8-638] synthesizing module 'addsub' [D:/onedrive/WSU/EE214/214/proj6all/proj6alu/proj6alu.srcs/sources_1/new/addsub.v:1]
+INFO: [Synth 8-638] synthesizing module 'FA' [D:/onedrive/WSU/EE214/214/proj6all/proj6alu/proj6alu.srcs/sources_1/new/FA.v:1]
+INFO: [Synth 8-256] done synthesizing module 'FA' (2#1) [D:/onedrive/WSU/EE214/214/proj6all/proj6alu/proj6alu.srcs/sources_1/new/FA.v:1]
+INFO: [Synth 8-256] done synthesizing module 'addsub' (3#1) [D:/onedrive/WSU/EE214/214/proj6all/proj6alu/proj6alu.srcs/sources_1/new/addsub.v:1]
+ERROR: [Synth 8-27] procedural assign not supported [D:/onedrive/WSU/EE214/214/proj6all/proj6alu/proj6alu.srcs/sources_1/new/top.v:83]
+ERROR: [Synth 8-285] failed synthesizing module 'top' [D:/onedrive/WSU/EE214/214/proj6all/proj6alu/proj6alu.srcs/sources_1/new/top.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:51 ; elapsed = 00:02:35 . Memory (MB): peak = 854.180 ; gain = 682.949
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+7 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 05 13:48:37 2016...

@@ -1,0 +1,254 @@
+/*
+
+Vivado v2015.4 (64-bit)
+SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+Process ID: 11420
+
+Current time: 	3/3/16 3:44:41 PM PST
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	C:/Xilinx/Vivado/2015.4/tps/win64/jre
+
+User name: 	aswan_000
+User home directory: C:/Users/aswan_000
+User working directory: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: C:/Users/aswan_000/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/aswan_000/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	221 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 364 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bF:g (cq:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\aswan_000\Desktop\ee214\project 4\challenge #2\challenge #2.xpr. Version: Vivado v2015.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project {C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/challenge #2.xpr} 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 32 MB (+30948kb) [00:00:05]
+// [Engine Memory]: 358 MB (+223603kb) [00:00:05]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/challenge #2.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 51 MB (+18359kb) [00:00:08]
+// [Engine Memory]: 398 MB (+23396kb) [00:00:09]
+// [Engine Memory]: 430 MB (+12563kb) [00:00:11]
+// [Engine Memory]: 460 MB (+8563kb) [00:00:11]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 471 MB. GUI used memory: 31 MB. Current time: 3/3/16 3:44:47 PM PST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 54 MB (+81kb) [00:00:13]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: challenge #2; location: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 782.570 ; gain = 144.344 
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES, "2 critical warnings"); // i:l (JPanel:JComponent, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation]", 2); // ag:k (JViewport:JComponent, cq:JFrame)
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// bF:g (cq:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Mar 03 15:45:00 2016] Launched impl_1... Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/challenge #2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bF:g (cq:JFrame)
+// [Engine Memory]: 485 MB (+3034kb) [00:00:25]
+// PAPropertyPanels.initPanels (segments.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, segments (segments.v)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, segments (segments.v)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+applyEnter(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, (String) null); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, segments (segments.v)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, segments (segments.v)]", 1, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+// [GUI Memory]: 57 MB (+1131kb) [00:00:33]
+// HMemoryUtils.trashcanNow. Engine heap size: 515 MB. GUI used memory: 31 MB. Current time: 3/3/16 3:45:28 PM PST
+// [Engine Memory]: 515 MB (+5617kb) [00:00:55]
+// TclEventType: RUN_COMPLETED
+// X:G (cq:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 42 seconds
+dismissDialog("Bitstream Generation Completed"); // X:G (cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segments.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segments.v", 1, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // V:a (Workspace:JPanel, cq:JFrame)
+selectCodeEditor("segments.v", 334, 190); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 17 seconds
+selectCodeEditor("segments.v", 688, 118); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 63 MB (+2456kb) [00:02:09]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 55 seconds
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:aY (cq:JFrame): Synthesis is Out-of-date: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // h:JCheckBox (JPanel:JComponent, G:aY): FALSE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:aY (cq:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Mar 03 15:47:13 2016] Launched synth_1... Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/challenge #2.runs/synth_1/runme.log [Thu Mar 03 15:47:13 2016] Launched impl_1... Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/challenge #2.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 34 seconds
+selectCodeEditor("segments.v", 280, 370); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("segments.v", 280, 370, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectCodeEditor("segments.v", 910, 86); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cq:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 14 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+// [GUI Memory]: 68 MB (+2533kb) [00:03:29]
+dismissDialog("Launch Run Critical Messages"); // ak:a (cq:JFrame)
+// TclEventType: RUN_FAILED
+// X:G (cq:JFrame): Bitstream Generation Failed: addNotify
+// Elapsed time: 71 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // X:G (cq:JFrame)
+selectCodeEditor("segments.v", 170, 186); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("segments.v", 179, 146); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("segments.v", 334, 196); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("segments.v", 264, 142); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segments.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segments.v", 1, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segments.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segments.v", 1, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // V:a (Workspace:JPanel, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segments.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segments.v", 1, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // V:a (Workspace:JPanel, cq:JFrame)
+// [GUI Memory]: 72 MB (+621kb) [00:05:06]
+// Elapsed time: 46 seconds
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+unMinimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // at:DockableFrame
+maximizeFrame(PAResourceOtoP.PAViews_TCL_CONSOLE, "Tcl Console"); // at:DockableFrame (FrameContainer:JideTabbedPane, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Simulation Settings]", 10, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_SETTINGS
+// Project Settings: addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton("Synthesis", "Synthesis"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aJ)
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aJ)
+dismissDialog("Project Settings"); // k:aJ (cq:JFrame)
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Mar 03 15:50:46 2016] Launched impl_1... Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/challenge #2.runs/impl_1/runme.log 
+unMaximizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // at:DockableFrame (FrameContainer:JideTabbedPane, cq:JFrame)
+// TclEventType: RUN_FAILED
+// X:G (cq:JFrame): Bitstream Generation Failed: addNotify
+// Elapsed time: 15 seconds
+selectCheckBox(PAResourceCommand.PACommandNames_LOG_WINDOW, "View Log", true); // h:JCheckBox (JPanel:JComponent, X:G): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // X:G (cq:JFrame)
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Simulation Settings]", 10, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_SETTINGS
+// Project Settings: addNotify
+// Elapsed time: 11 seconds
+selectButton("Synthesis", "Synthesis"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aJ)
+// Elapsed time: 12 seconds
+selectButton("Bitstream", "Bitstream"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aJ)
+selectButton("Synthesis", "Synthesis"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aJ)
+selectButton("Bitstream", "Bitstream"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aJ)
+selectButton("APPLY", "Apply"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aJ)
+// G:aY (cq:JFrame): Create New Run: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:aY)
+// b:x (cq:JFrame): Create Run: addNotify
+dismissDialog("Create New Run"); // G:aY (cq:JFrame)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, b:x)
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// Tcl Message: create_run synth_2 -flow {Vivado Synthesis 2015} -strategy {Vivado Synthesis Defaults} 
+// Tcl Message: Run is defaulting to srcset: sources_1 Run is defaulting to constrset: constrs_1 Run is defaulting to part: xc7a35tcpg236-1 
+// Tcl Message: current_run [get_runs synth_2] 
+dismissDialog("Create Run"); // b:x (cq:JFrame)
+selectButton("Implementation", "Implementation"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aJ)
+selectButton("Synthesis", "Synthesis"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aJ)
+selectButton("Implementation", "Implementation"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aJ)
+selectButton("Bitstream", "Bitstream"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aJ)
+selectButton("OK", "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aJ)
+dismissDialog("Project Settings"); // k:aJ (cq:JFrame)
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:aY (cq:JFrame): No Implementation Results Available: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // h:JCheckBox (JPanel:JComponent, G:aY): FALSE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // G:aY (cq:JFrame)
+dismissDialog("Resetting Runs"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_2 -to_step write_bitstream 
+// Tcl Message: [Thu Mar 03 15:52:10 2016] Launched synth_2... Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/challenge #2.runs/synth_2/runme.log [Thu Mar 03 15:52:10 2016] Launched impl_2... Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/challenge #2.runs/impl_2/runme.log 
+// [GUI Memory]: 84 MB (+8915kb) [00:07:35]

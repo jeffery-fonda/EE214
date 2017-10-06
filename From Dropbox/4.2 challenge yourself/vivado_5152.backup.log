@@ -1,0 +1,180 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Mar 02 16:24:07 2016
+# Process ID: 5152
+# Current directory: C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6964 C:\Users\aswan_000\Desktop\ee214\project 4\4.2 challenge yourself\4.2.xpr
+# Log file: C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/vivado.log
+# Journal file: C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 741.555 ; gain = 102.125
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: wrapper
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:01:07 ; elapsed = 00:01:53 . Memory (MB): peak = 782.566 ; gain = 611.730
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'wrapper' [C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/new/wrapper.v:23]
+INFO: [Synth 8-638] synthesizing module 'counter' [C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/imports/project 4/counter.v:1]
+INFO: [Synth 8-256] done synthesizing module 'counter' (1#1) [C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/imports/project 4/counter.v:1]
+INFO: [Synth 8-638] synthesizing module 'latch' [C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/imports/project 4/latch.v:1]
+INFO: [Synth 8-256] done synthesizing module 'latch' (2#1) [C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/imports/project 4/latch.v:1]
+INFO: [Synth 8-638] synthesizing module 'mux' [C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/new/mux.v:23]
+INFO: [Synth 8-256] done synthesizing module 'mux' (3#1) [C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/new/mux.v:23]
+INFO: [Synth 8-638] synthesizing module 'demux' [C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/new/demux.v:23]
+INFO: [Synth 8-256] done synthesizing module 'demux' (4#1) [C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/new/demux.v:23]
+INFO: [Synth 8-256] done synthesizing module 'wrapper' (5#1) [C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/new/wrapper.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:08 ; elapsed = 00:01:54 . Memory (MB): peak = 808.781 ; gain = 637.945
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:09 ; elapsed = 00:01:54 . Memory (MB): peak = 808.781 ; gain = 637.945
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 5 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/constrs_1/new/constraint.xdc]
+Finished Parsing XDC File [C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/constrs_1/new/constraint.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:01:25 ; elapsed = 00:02:05 . Memory (MB): peak = 1126.504 ; gain = 955.668
+15 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:16 . Memory (MB): peak = 1126.504 ; gain = 349.805
+close_design
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/imports/project 4/latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/new/demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module demux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/imports/project 4/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/new/wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 0c4360102622422a9111b7ecd16a6654 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot wrapper_behav xil_defaultlib.wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/imports/project 4/counter.v" Line 1. Module counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/imports/project 4/latch.v" Line 1. Module latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/imports/project 4/counter.v" Line 1. Module counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.srcs/sources_1/imports/project 4/latch.v" Line 1. Module latch doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.latch
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.demux
+Compiling module xil_defaultlib.wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot wrapper_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/aswan_000/Desktop/ee214/project -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "C:/Users/aswan_000/Desktop/ee214/project" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Mar 02 16:27:44 2016...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "wrapper_behav -key {Behavioral:sim_1:Functional:wrapper} -tclbatch {wrapper.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Time resolution is 1 ps
+source wrapper.tcl
+INFO: [Common 17-344] 'xsim' was cancelled
+1
+    while executing
+"catch {eval "xsim $cmd_args"} err_msg"
+    (procedure "tclapp::xilinx::xsim::simulate" line 58)
+    invoked from within
+"tclapp::xilinx::xsim::simulate { -simset sim_1 -mode behavioral -run_dir {C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.sim/si..."
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar 02 16:27:49 2016] Launched synth_1...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.runs/synth_1/runme.log
+[Wed Mar 02 16:27:49 2016] Launched impl_1...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar 02 16:31:35 2016] Launched synth_1...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.runs/synth_1/runme.log
+[Wed Mar 02 16:31:35 2016] Launched impl_1...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar 02 16:33:29 2016] Launched synth_1...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.runs/synth_1/runme.log
+[Wed Mar 02 16:33:29 2016] Launched impl_1...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar 02 16:37:55 2016] Launched synth_1...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.runs/synth_1/runme.log
+[Wed Mar 02 16:37:55 2016] Launched impl_1...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar 02 16:40:54 2016] Launched synth_1...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.runs/synth_1/runme.log
+[Wed Mar 02 16:40:54 2016] Launched impl_1...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar 02 16:43:58 2016] Launched synth_1...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.runs/synth_1/runme.log
+[Wed Mar 02 16:43:58 2016] Launched impl_1...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/4.2 challenge yourself/4.2.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 02 16:45:52 2016...

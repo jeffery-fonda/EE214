@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Mar 02 17:31:58 2016
+# Process ID: 3512
+# Current directory: D:/onedrive/WSU/EE214/mux_demux/mux_demux.runs/synth_1
+# Command line: vivado.exe -log wrapper.vds -mode batch -messageDb vivado.pb -notrace -source wrapper.tcl
+# Log file: D:/onedrive/WSU/EE214/mux_demux/mux_demux.runs/synth_1/wrapper.vds
+# Journal file: D:/onedrive/WSU/EE214/mux_demux/mux_demux.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source wrapper.tcl -notrace
+Command: synth_design -top wrapper -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+WARNING: [Synth 8-2611] redeclaration of ansi port Y0 is not allowed [D:/onedrive/WSU/EE214/mux_demux/mux_demux.srcs/sources_1/new/mux.v:32]
+WARNING: [Synth 8-2611] redeclaration of ansi port Y1 is not allowed [D:/onedrive/WSU/EE214/mux_demux/mux_demux.srcs/sources_1/new/mux.v:32]
+WARNING: [Synth 8-2611] redeclaration of ansi port Y2 is not allowed [D:/onedrive/WSU/EE214/mux_demux/mux_demux.srcs/sources_1/new/mux.v:32]
+WARNING: [Synth 8-2611] redeclaration of ansi port Y3 is not allowed [D:/onedrive/WSU/EE214/mux_demux/mux_demux.srcs/sources_1/new/mux.v:32]
+ERROR: [Synth 8-2715] syntax error near Y0 [D:/onedrive/WSU/EE214/mux_demux/mux_demux.srcs/sources_1/new/demux.v:32]
+ERROR: [Synth 8-2715] syntax error near else [D:/onedrive/WSU/EE214/mux_demux/mux_demux.srcs/sources_1/new/demux.v:34]
+INFO: [Synth 8-2350] module demux ignored due to previous errors [D:/onedrive/WSU/EE214/mux_demux/mux_demux.srcs/sources_1/new/demux.v:23]
+Failed to read verilog 'D:/onedrive/WSU/EE214/mux_demux/mux_demux.srcs/sources_1/new/demux.v'
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 4 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 02 17:32:04 2016...

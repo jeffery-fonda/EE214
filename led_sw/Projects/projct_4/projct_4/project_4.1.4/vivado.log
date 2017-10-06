@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Oct 30 17:48:20 2015
+# Process ID: 14884
+# Log file: C:/Users/hoob/Desktop/EE214/projct_4/projct_4/project_4.1.4/vivado.log
+# Journal file: C:/Users/hoob/Desktop/EE214/projct_4/projct_4/project_4.1.4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hoob/Desktop/EE214/projct_4/projct_4/project_4.1.4/project_4.1.4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:25 . Memory (MB): peak = 702.586 ; gain = 149.734
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 30 17:49:39 2015...

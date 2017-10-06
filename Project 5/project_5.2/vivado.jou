@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Nov 14 19:21:15 2016
+# Process ID: 5204
+# Log file: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 5/project_5.2/vivado.log
+# Journal file: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 5/project_5.2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 5/project_5.2/project_5.2.xpr}
+launch_simulation
+source testbench.tcl
+close_sim

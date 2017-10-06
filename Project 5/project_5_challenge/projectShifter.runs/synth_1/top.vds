@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Mar 30 13:50:51 2017
+# Process ID: 6156
+# Log file: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 5/project_5_challenge/projectShifter.runs/synth_1/top.vds
+# Journal file: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 5/project_5_challenge/projectShifter.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 244.484 ; gain = 68.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 5/project_5_challenge/projectShifter.srcs/sources_1/new/top.v:21]
+INFO: [Synth 8-638] synthesizing module 'clk_divider' [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 5/project_5_challenge/projectShifter.srcs/sources_1/new/clock_divider.v:3]
+ERROR: [Synth 8-439] module 'dff' not found [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 5/project_5_challenge/projectShifter.srcs/sources_1/new/clock_divider.v:15]
+ERROR: [Synth 8-285] failed synthesizing module 'clk_divider' [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 5/project_5_challenge/projectShifter.srcs/sources_1/new/clock_divider.v:3]
+ERROR: [Synth 8-285] failed synthesizing module 'top' [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/Project 5/project_5_challenge/projectShifter.srcs/sources_1/new/top.v:21]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 278.711 ; gain = 102.227
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+4 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 30 13:50:55 2017...

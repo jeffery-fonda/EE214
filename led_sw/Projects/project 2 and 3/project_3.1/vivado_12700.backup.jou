@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Sep 24 17:15:52 2015
+# Process ID: 12008
+# Log file: C:/Users/hoob/Desktop/project_3.1/vivado.log
+# Journal file: C:/Users/hoob/Desktop/project_3.1\vivado.jou
+#-----------------------------------------------------------start_gui
+open_project C:/Users/hoob/Desktop/project_3.1/project_3.1.xpr
+
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1

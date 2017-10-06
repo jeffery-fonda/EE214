@@ -1,0 +1,360 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Sep 14 14:38:48 2017
+# Process ID: 3312
+# Log file: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.runs/synth_1/top.vds
+# Journal file: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-1223] The version limit for your license is '2017.09' and will expire in 16 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 244.777 ; gain = 67.977
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/SW.v:21]
+INFO: [Synth 8-638] synthesizing module 'Clk_Div' [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/Clk_Div.v:21]
+	Parameter constantNumber bound to: 50000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Clk_Div' (1#1) [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/Clk_Div.v:21]
+INFO: [Synth 8-638] synthesizing module 'controller' [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/controller.v:21]
+	Parameter S0 bound to: 2'b00 
+	Parameter S1 bound to: 2'b01 
+	Parameter S2 bound to: 2'b11 
+	Parameter S3 bound to: 2'b10 
+INFO: [Synth 8-226] default block is never used [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/controller.v:39]
+INFO: [Synth 8-256] done synthesizing module 'controller' (2#1) [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/controller.v:21]
+INFO: [Synth 8-638] synthesizing module 'counter' [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/counter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'counter' (3#1) [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/counter.v:21]
+INFO: [Synth 8-638] synthesizing module 'seg_counter' [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/Digit_decimal_count.v:21]
+	Parameter constant1 bound to: 1'b1 
+INFO: [Synth 8-638] synthesizing module 'counter_4_bit' [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/counter_4_bit.v:21]
+INFO: [Synth 8-256] done synthesizing module 'counter_4_bit' (4#1) [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/counter_4_bit.v:21]
+INFO: [Synth 8-256] done synthesizing module 'seg_counter' (5#1) [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/Digit_decimal_count.v:21]
+INFO: [Synth 8-638] synthesizing module 'mux' [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/mux_4_to_4.v:21]
+INFO: [Synth 8-226] default block is never used [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/mux_4_to_4.v:32]
+INFO: [Synth 8-256] done synthesizing module 'mux' (6#1) [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/mux_4_to_4.v:21]
+INFO: [Synth 8-638] synthesizing module 'andecoder' [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/decoder_2_4.v:21]
+INFO: [Synth 8-226] default block is never used [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/decoder_2_4.v:29]
+INFO: [Synth 8-226] default block is never used [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/decoder_2_4.v:45]
+INFO: [Synth 8-256] done synthesizing module 'andecoder' (7#1) [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/decoder_2_4.v:21]
+INFO: [Synth 8-638] synthesizing module 'segdecoder' [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/bin2seg_decoder.v:21]
+INFO: [Synth 8-256] done synthesizing module 'segdecoder' (8#1) [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/bin2seg_decoder.v:21]
+INFO: [Synth 8-256] done synthesizing module 'top' (9#1) [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/sources_1/imports/Stop_watch/SW.v:21]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 279.918 ; gain = 103.117
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 279.918 ; gain = 103.117
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/constrs_1/imports/Nexys4_Master_xdc/Nexys4_Master.xdc]
+Finished Parsing XDC File [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/constrs_1/imports/Nexys4_Master_xdc/Nexys4_Master.xdc]
+Parsing XDC File [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/constrs_1/imports/Nexys4_Master_xdc/Basys3_Master.xdc]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W5' is not a valid site or package pin name. [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/constrs_1/imports/Nexys4_Master_xdc/Basys3_Master.xdc:7]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W7' is not a valid site or package pin name. [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/constrs_1/imports/Nexys4_Master_xdc/Basys3_Master.xdc:82]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W6' is not a valid site or package pin name. [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/constrs_1/imports/Nexys4_Master_xdc/Basys3_Master.xdc:84]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V8' is not a valid site or package pin name. [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/constrs_1/imports/Nexys4_Master_xdc/Basys3_Master.xdc:88]
+CRITICAL WARNING: [Common 17-69] Command failed: 'U5' is not a valid site or package pin name. [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/constrs_1/imports/Nexys4_Master_xdc/Basys3_Master.xdc:90]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W4' is not a valid site or package pin name. [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/constrs_1/imports/Nexys4_Master_xdc/Basys3_Master.xdc:108]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W19' is not a valid site or package pin name. [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/constrs_1/imports/Nexys4_Master_xdc/Basys3_Master.xdc:118]
+CRITICAL WARNING: [Common 17-69] Command failed: 'T17' is not a valid site or package pin name. [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/constrs_1/imports/Nexys4_Master_xdc/Basys3_Master.xdc:121]
+Finished Parsing XDC File [C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/From Dropbox/214/proj7/proj7.srcs/constrs_1/imports/Nexys4_Master_xdc/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 580.156 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 580.156 ; gain = 403.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 580.156 ; gain = 403.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 580.156 ; gain = 403.355
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+INFO: [Synth 8-5545] ROM "clk_div" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 580.156 ; gain = 403.355
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	  11 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   4 Input      4 Bit        Muxes := 1     
+	   8 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Clk_Div 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module controller 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   8 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+Module counter_4_bit 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+Module andecoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module segdecoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	  11 Input      7 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 580.156 ; gain = 403.355
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "clkdiv/count" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+INFO: [Synth 8-5545] ROM "clkdiv/clk_div" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+WARNING: [Synth 8-3917] design top has port an[7] driven by constant 1
+WARNING: [Synth 8-3917] design top has port an[6] driven by constant 1
+WARNING: [Synth 8-3917] design top has port an[5] driven by constant 1
+WARNING: [Synth 8-3917] design top has port an[4] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 580.156 ; gain = 403.355
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 580.156 ; gain = 403.355
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 580.156 ; gain = 403.355
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 580.156 ; gain = 403.355
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 580.156 ; gain = 403.355
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 580.156 ; gain = 403.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 580.156 ; gain = 403.355
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 580.156 ; gain = 403.355
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 580.156 ; gain = 403.355
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 580.156 ; gain = 403.355
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 580.156 ; gain = 403.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 580.156 ; gain = 403.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 580.156 ; gain = 403.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |    36|
+|4     |LUT2   |     6|
+|5     |LUT3   |    37|
+|6     |LUT4   |     9|
+|7     |LUT5   |    14|
+|8     |LUT6   |    10|
+|9     |FDCE   |    56|
+|10    |IBUF   |     5|
+|11    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------+----------------+------+
+|      |Instance   |Module          |Cells |
++------+-----------+----------------+------+
+|1     |top        |                |   198|
+|2     |  clkdiv   |Clk_Div         |   114|
+|3     |  control  |controller      |     4|
+|4     |  counter1 |counter         |     9|
+|5     |  counter2 |seg_counter     |    49|
+|6     |    dig0   |counter_4_bit   |    10|
+|7     |    dig1   |counter_4_bit_0 |    10|
+|8     |    dig2   |counter_4_bit_1 |    10|
+|9     |    dig3   |counter_4_bit_2 |    19|
++------+-----------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 580.156 ; gain = 403.355
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 580.156 ; gain = 88.180
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 580.156 ; gain = 403.355
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+38 Infos, 4 Warnings, 8 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 580.156 ; gain = 389.777
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 580.156 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 14 14:39:16 2017...

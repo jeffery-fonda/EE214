@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/onedrive/WSU/EE214/MD_final/MD_final.srcs/sources_1/imports/vhdl shit/latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module latch
+WARNING: [VRFC 10-1315] redeclaration of ansi port O0 is not allowed [D:/onedrive/WSU/EE214/MD_final/MD_final.srcs/sources_1/imports/vhdl shit/latch.v:7]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/onedrive/WSU/EE214/MD_final/MD_final.srcs/sources_1/imports/vhdl shit/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/onedrive/WSU/EE214/MD_final/MD_final.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/onedrive/WSU/EE214/MD_final/MD_final.srcs/sources_1/new/dmux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmux
+ERROR: [VRFC 10-46] Y0 is already declared [D:/onedrive/WSU/EE214/MD_final/MD_final.srcs/sources_1/new/dmux.v:30]
+ERROR: [VRFC 10-1040] module dmux ignored due to previous errors [D:/onedrive/WSU/EE214/MD_final/MD_final.srcs/sources_1/new/dmux.v:23]

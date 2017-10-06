@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject db_ref_id="1" fp_name="/test/I" type="array">
+      <obj_property name="ElementShortName">I[3:0]</obj_property>
+      <obj_property name="ObjectShortName">I[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/S" type="array">
+      <obj_property name="ElementShortName">S[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/Y" type="array">
+      <obj_property name="ElementShortName">Y[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Y[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/k" type="array">
+      <obj_property name="ElementShortName">k[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/uut/input_mux/I" type="array">
+      <obj_property name="ElementShortName">I[3:0]</obj_property>
+      <obj_property name="ObjectShortName">I[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/uut/input_mux/S" type="array">
+      <obj_property name="ElementShortName">S[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/uut/input_mux/Y" type="logic">
+      <obj_property name="ElementShortName">Y</obj_property>
+      <obj_property name="ObjectShortName">Y</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/uut/output_demux/I" type="array">
+      <obj_property name="ElementShortName">I[1:0]</obj_property>
+      <obj_property name="ObjectShortName">I[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/uut/output_demux/En" type="logic">
+      <obj_property name="ElementShortName">En</obj_property>
+      <obj_property name="ObjectShortName">En</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/uut/output_demux/Y" type="array">
+      <obj_property name="ElementShortName">Y[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Y[3:0]</obj_property>
+   </wvobject>
+</wave_config>

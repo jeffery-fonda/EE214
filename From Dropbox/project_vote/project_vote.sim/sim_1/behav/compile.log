@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/onedrive/WSU/EE214/project_vote/project_vote.srcs/sources_1/new/major5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module major5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/onedrive/WSU/EE214/project_vote/project_vote.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/onedrive/WSU/EE214/project_vote/project_vote.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Oct 08 17:38:40 2015
+# Process ID: 6928
+# Log file: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/vivado.log
+# Journal file: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.xpr}
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new
+file mkdir {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new}
+close [ open {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v} w ]
+add_files -fileset sim_1 {{C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.srcs/sim_1/new/encoder.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_run impl_1
+open_hw
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183714941A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183714941A]
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.runs/impl_1/source.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.runs/impl_1/source.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw
+launch_simulation
+source encoder.tcl
+open_hw
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183714941A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183714941A]
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.runs/impl_1/source.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+close_hw
+close_sim
+open_run impl_1
+open_hw
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183714941A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183714941A]
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.runs/impl_1/source.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.runs/impl_1/source.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.3/project_4.1.3.runs/impl_1/source.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+launch_simulation
+source encoder.tcl
+close_sim

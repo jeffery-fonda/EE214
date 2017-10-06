@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Thu Apr 16 20:27:12 2015
+# Process ID: 5068
+# Log file: C:/Users/Clay/Desktop/proj6all/projdivider/projdivider.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/Clay/Desktop/proj6all/projdivider/projdivider.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Clay/Desktop/proj6all/projdivider/projdivider.sim/sim_1/behav/xsim.dir/sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Clay/Desktop/proj6all/projdivider/projdivider.sim/sim_1/behav/xsim.dir/sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 20:27:28 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 61.094 ; gain = 0.020
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 20:27:28 2015...

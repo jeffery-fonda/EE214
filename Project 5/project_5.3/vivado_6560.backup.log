@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Oct 28 13:52:19 2015
+# Process ID: 5140
+# Log file: D:/EE214/BlinkLED/vivado.log
+# Journal file: D:/EE214/BlinkLED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/EE214/BlinkLED/BlinkLED.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+close_project
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source D:/EE214/BlinkLED/BlinkLED.hw/webtalk/labtool_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 58.891 ; gain = 0.008
+
+    while executing
+"webtalk_transmit -clientid 3416405219 -regid "" -xml D:/EE214/BlinkLED/BlinkLED.hw/webtalk/usage_statistics_ext_labtool.xml -html D:/EE214/BlinkLED/Bl..."
+    (file "D:/EE214/BlinkLED/BlinkLED.hw/webtalk/labtool_webtalk.tcl" line 26)
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct 28 13:55:28 2015...
+close_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 749.113 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 28 13:55:34 2015...

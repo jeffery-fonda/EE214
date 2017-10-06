@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Oct 08 18:25:55 2015
+# Process ID: 6804
+# Log file: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.1/vivado.log
+# Journal file: C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.1/project_4.1.xpr}
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.1/project_4.1.srcs/sim_1/new
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.1/project_4.1.srcs/sim_1/new
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.1/project_4.1.srcs/sim_1/new
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.1/project_4.1.srcs/sim_1/new
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.1/project_4.1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.1/project_4.1.srcs/sim_1/new
+file mkdir {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.1/project_4.1.srcs/sim_1/new}
+close [ open {C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.1/project_4.1.srcs/sim_1/new/multiplexor.v} w ]
+add_files -fileset sim_1 {{C:/Users/Jeffery Fonda/Dropbox/Classes/EE Classes/EE214 Projects/project_4.1.1/project_4.1.srcs/sim_1/new/multiplexor.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source multiplexor.tcl
+close_sim

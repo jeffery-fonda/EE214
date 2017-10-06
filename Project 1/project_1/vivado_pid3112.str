@@ -1,0 +1,104 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 3112
+
+Current time: 	9/11/15 3:11:54 PM PDT
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 2
+
+Screen size: 1440x900
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	C:/Xilinx/Vivado/2015.2/tps/win64/jre
+
+User name: 	Jeffery Fonda
+User directory: C:/Users/Jeffery Fonda/Documents/EE214 Projects/project_1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: C:/Users/Jeffery Fonda/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/Jeffery Fonda/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	178 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 368 MB
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 56) elapsed time: 3.4s
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Jeffery Fonda\Documents\EE214 Projects\project_1\project_1.xpr. Version: Vivado v2015.2 
+// [GUI Memory]: 39 MB (+38467kb) [00:00:09]
+// [Engine Memory]: 345 MB (+210139kb) [00:00:09]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/Jeffery Fonda/Documents/EE214 Projects/project_1/project_1.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 48 MB (+6849kb) [00:00:12]
+// [Engine Memory]: 378 MB (+16778kb) [00:00:12]
+// [Engine Memory]: 402 MB (+5466kb) [00:00:15]
+// [GUI Memory]: 56 MB (+5903kb) [00:00:21]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 426 MB. GUI used memory: 31 MB. Current time: 9/11/15 3:12:06 PM PDT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 426 MB (+3295kb) [00:00:24]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_1; location: C:/Users/Jeffery Fonda/Documents/EE214 Projects/project_1; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 652.613 ; gain = 116.891 
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // A:k (H:JPanel, cl:JFrame)
+// PAPropertyPanels.initPanels (Project0_Basys3.xdc) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Project0_Basys3.xdc]", 4, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Project0_Basys3.xdc]", 4, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 19 seconds
+selectCodeEditor("Project0_Basys3.xdc", 0, 95); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 443 MB. GUI used memory: 32 MB. Current time: 9/11/15 3:12:36 PM PDT
+typeControlKey((HResource) null, "Project0_Basys3.xdc", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 86 seconds
+selectCodeEditor("Project0_Basys3.xdc", 7, 181); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Project0_Basys3.xdc", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 59 MB (+600kb) [00:04:27]
+// Elapsed time: 208 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project0_demo (project0_demo_Basys3.v)]", 1, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project0_demo (project0_demo_Basys3.v)]", 1, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project0_demo (project0_demo_Basys3.v)]", 1, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// [GUI Memory]: 63 MB (+880kb) [00:07:14]
+// [Engine Memory]: 447 MB (+366kb) [00:11:07]
+// Elapsed time: 580 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project0_Basys3.xdc", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("Project0_Basys3.xdc", 444, 322); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectTab((HResource) null, (HResource) null, "Templates", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+// [GUI Memory]: 69 MB (+3409kb) [00:15:54]
+// Elapsed time: 17 seconds
+selectCodeEditor("Project0_Basys3.xdc", 397, 298); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Project0_Basys3.xdc", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 21 seconds
+typeControlKey((HResource) null, "Project0_Basys3.xdc", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "project0_demo_Basys3.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// [GUI Memory]: 73 MB (+710kb) [00:21:24]

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Fri Apr 17 16:31:43 2015
+# Process ID: 3412
+# Log file: C:/Users/Clay/Desktop/proj6all/projdivider/projdivider.runs/synth_1/top.vds
+# Journal file: C:/Users/Clay/Desktop/proj6all/projdivider/projdivider.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl

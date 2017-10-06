@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Tue Mar 01 17:55:00 2016
+# Process ID: 12616
+# Current directory: D:/onedrive/WSU/EE214/shifter/shifter.runs/synth_1
+# Command line: vivado.exe -log shifty.vds -mode batch -messageDb vivado.pb -notrace -source shifty.tcl
+# Log file: D:/onedrive/WSU/EE214/shifter/shifter.runs/synth_1/shifty.vds
+# Journal file: D:/onedrive/WSU/EE214/shifter/shifter.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source shifty.tcl -notrace

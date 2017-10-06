@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Mar 03 15:44:27 2016
+# Process ID: 11420
+# Current directory: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11452 C:\Users\aswan_000\Desktop\ee214\project 4\challenge #2\challenge #2.xpr
+# Log file: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/vivado.log
+# Journal file: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/challenge #2.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 782.570 ; gain = 144.344
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+[Thu Mar 03 15:45:00 2016] Launched impl_1...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/challenge #2.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Thu Mar 03 15:47:13 2016] Launched synth_1...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/challenge #2.runs/synth_1/runme.log
+[Thu Mar 03 15:47:13 2016] Launched impl_1...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/challenge #2.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+[Thu Mar 03 15:50:46 2016] Launched impl_1...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/challenge #2.runs/impl_1/runme.log
+create_run synth_2 -flow {Vivado Synthesis 2015} -strategy {Vivado Synthesis Defaults}
+Run is defaulting to srcset: sources_1
+Run is defaulting to constrset: constrs_1
+Run is defaulting to part: xc7a35tcpg236-1
+current_run [get_runs synth_2]
+launch_runs impl_2 -to_step write_bitstream
+[Thu Mar 03 15:52:10 2016] Launched synth_2...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/challenge #2.runs/synth_2/runme.log
+[Thu Mar 03 15:52:10 2016] Launched impl_2...
+Run output will be captured here: C:/Users/aswan_000/Desktop/ee214/project 4/challenge #2/challenge #2.runs/impl_2/runme.log
